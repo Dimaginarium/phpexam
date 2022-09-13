@@ -1,0 +1,116 @@
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Permanent+Marker&display=swap');
+
+html,body
+{
+    height: 100%;
+    font-size: 20px;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+body
+{
+    display: table;
+    margin: 0 auto;
+    background-image: url("../img/bg_img.jpg");
+    background-size: cover;
+}
+
+.container
+{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.container > img {
+    display: block;
+    margin: 0 auto;
+}
+.content {
+    background: white;
+    opacity: 90%;
+    border-radius: 30px;
+    min-width: 400px;
+    min-height: 400px;
+    padding: 30px;
+}
+.center {
+    text-align: center;
+}
+h1 {
+   text-align: center;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+h2 {
+    text-align: center;
+}
+
+a {
+     color: black;
+ }
+h4 > a {
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+}
+button {
+    color: white;
+    width: 70%;
+    padding: 10px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(217,177,209,1) 0%, rgba(208,237,244,1) 100%);
+    cursor: pointer;
+    transition: opacity 0.5s ease-out;
+}
+button:hover {
+    opacity: 50%;
+}
+::placeholder {
+    color: lightgray;
+}
+hr {
+    border: none;
+    border-bottom: 1px solid lightgray ;
+
+}
+table {
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+}
+.new {
+    font-size: 15px;
+}
+.error {
+    font-size: 13px;
+    color: red;
+    margin-bottom: 20px;
+}
+.success {
+    font-size: 20px;
+}
+.codeInput {
+    display: inline;
+    width: 20%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.codeInput::placeholder{
+    text-align: center;
+}
